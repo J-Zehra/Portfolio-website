@@ -1,0 +1,41 @@
+nav{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.icon{
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50rem;
+    outline: 1px solid var(--bg);
+    background-color: rgba(102, 102, 102, 0.171);
+}
+
+.about-icon{
+    position: relative;
+    top: 10rem;
+}
+
+.contact-icon{
+    position: relative;
+    top: 10rem;
+}
+
+.projects-icon{
+    position: relative;
+    top: 2rem;
+}
+
+.testimonials-icon{
+    position: relative;
+    top: 2rem;
+}
+
