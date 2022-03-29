@@ -8,7 +8,7 @@ export const Header = () => {
         <header>
             <div className="logo-container">
                 <img className='logo' src={logo} alt="logo" />
-                <h1 className='logo-name'>ZEHRA</h1>
+                <h1 className='logo-name'> <span>Z</span> EHRA</h1>
             </div>
             <div className="dark-light-mode">
                 <CgDarkMode/>

@@ -24,8 +24,13 @@ header
 .logo-name{
     color: var(--bg);
     font-size: 1.5rem;
-    font-family: 'Hurricane';
+    font-family: 'Poppins';
     font-weight: 800;
+}
+
+.logo-name span{
+    font-family: "Hurricane";
+    font-size: 2.5rem;
 }
 
 .dark-light-mode
