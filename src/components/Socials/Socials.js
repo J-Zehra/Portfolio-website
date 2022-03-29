@@ -6,13 +6,13 @@ import { AiFillGithub } from 'react-icons/ai'
 export const Socials = () => {
     return (
         <>
-            <a href="#">
+            <a target={'_blank'} href="mailto: jazencode@gmail.com">
                 <AiTwotoneMail/>
             </a>
-            <a href="#">
+            <a target={'_blank'} href="https://m.me/mojackoooo">
                 <FaFacebookMessenger/>
             </a>
-            <a href="#">
+            <a target={'_blank'} href="https://github.com/J-Zehra">
                 <AiFillGithub/>
             </a>
         </>
