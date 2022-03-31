@@ -3,6 +3,8 @@ import { Header } from './components/Header/Header'
 import { Nav } from './components/Nav/Nav'
 import { About } from './Pages/About/About';
 import { Projects } from './Pages/Projects/Projects'
+import { Footer } from './components/Footer/Footer'
+import { Contact } from './Pages/Contact/Contact'
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Home/>
         <About/>
         <Projects/>
+        <Contact/>
+        <Footer/>
       </div>
   );
 }
